@@ -11,7 +11,7 @@ on:
       - master
 
 jobs:
-  build:
+  build_and_publish:
     runs-on: ubuntu-latest
 
     permissions:
@@ -34,6 +34,5 @@ jobs:
       - name: Test
         run: deno test
 
-      - name: Publish
-        if: startsWith(github.ref, 'refs/tags/')
+      - name: Publish package
         run: deno publish
