@@ -1,0 +1,8 @@
+{
+  "name": "@tifan/greet",
+  "version": "1.0.0",
+  "exports": "./main.ts",
+  "imports": {
+    "@std/assert": "jsr:@std/assert@^1.0.6"
+  }
+}
