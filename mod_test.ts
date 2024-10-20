@@ -1,4 +1,4 @@
-import { english, indonesia } from "./main.ts";
+import { english, indonesia } from "./mod.ts";
 import { assertEquals } from "@std/assert";
 
 Deno.test("indonesia", () => {
